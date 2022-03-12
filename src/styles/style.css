@@ -1,0 +1,66 @@
+@font-face {
+  font-family: kamran;
+  src: url(../assets/fonts/B\ Kamran_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: nazanin;
+  src: url(../assets/fonts/Far_Nazanin.ttf) format("truetype");
+}
+
+div.jp-MarkdownCell {
+  background-color: rgb(61, 61, 61);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+}
+
+div.jp-MarkdownCell:hover {
+  background-color: rgb(54, 54, 54);
+}
+
+div.jp-CodeCell {
+  border-radius: 4px;
+}
+
+p.align-center {
+  text-align: center;
+}
+
+p.align-right {
+  text-align: right;
+}
+
+p.align-left {
+  text-align: left;
+}
+
+p.title {
+  font-weight: bold;
+}
+
+p.persian {
+  direction: rtl;
+  font-family: nazanin;
+  font-size: 20px;
+}
+
+table.align-center {
+  text-align: center;
+}
+
+table.persian {
+  direction: rtl;
+  font-family: nazanin;
+  font-size: 20px;
+}
+
+ul.align-right {
+  text-align: right;
+}
+
+ul.persian {
+  direction: rtl;
+  font-family: nazanin;
+  font-size: 20px;
+}
